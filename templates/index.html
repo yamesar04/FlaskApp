@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nitya Software Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">My App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <form action="/" method="POST">
+            <div class="mb-3">
+                <label for="param1" class="form-label">Param 1</label>
+                <input type="text" class="form-control" name='param1' id="param1" aria-describedby="emailHelp">
+                <div id="Param1" class="form-text"> 'Value1' </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param2" class="form-label">Param 2</label>
+                <input type="text" class="form-control" name='param2' id="param2" aria-describedby="emailHelp">
+
+            </div>
+
+            <div class="mb-3">
+                <label for="param3" class="form-label">Param 3</label>
+                <input type="text" class="form-control" name="param3" id="param3" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"> 123 </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param4" class="form-label">Param 4</label>
+                <input type="text" class="form-control" name='param4' id="param4" aria-describedby="emailHelp">
+                <div id="param4" class="form-text"> True </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param5" class="form-label">Param 5</label>
+                <input type="text" class="form-control" name="param5" id="param5" aria-describedby="emailHelp">
+                <div id="param5" class="form-text"> ['item1', 'item2, ...'] Comme seperated text </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param7" class="form-label">Param 7</label>
+                <input type="text" class="form-control" name="param7" id="param7" aria-describedby="emailHelp">
+                <div id="param7" class="form-text"> None </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param8" class="form-label">Param 8</label>
+                <input type="text" class="form-control" name="param8" id="param8" aria-describedby="emailHelp">
+                <div id="param8" class="form-text"> 3.14 </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param9" class="form-label">Param 9</label>
+                <input type="text" class="form-control" name="param9" id="param9" aria-describedby="emailHelp">
+                <div id="param9" class="form-text"> '2023-05-29' </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="param10" class="form-label">Param 10</label>
+                <input type="text" class="form-control" name="param10" id="param10" aria-describedby="emailHelp">
+                <div id="param10" class="form-text"> 'Hello World!' </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">SNo</th>
+                    <th scope="col">Param 1</th>
+                    <th scope="col">Param 2</th>
+                    <th scope="col">Param 3</th>
+                    <th scope="col">Param 4</th>
+                    <th scope="col">Param 5</th>
+                    <th scope="col">Param 7</th>
+                    <th scope="col">Param 8</th>
+                    <th scope="col">Param 9</th>
+                    <th scope="col">Param 10</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for one in all %}
+                <tr>
+                    <th scope="row">{{loop.index}}</th>
+                    <td>{{one.param1}}</td>
+                    <td>{{one.param2}}</td>
+                    <td>{{one.param3}}</td>
+                    <td>{{one.param4}}</td>
+                    <td>{{one.param5}}</td>
+                    <td>{{one.param7}}</td>
+                    <td>{{one.param8}}</td>
+                    <td>{{one.param9}}</td>
+                    <td>{{one.param10}}</td>
+                    <td> <a href="/update/{{one.sno}}" type="button" class="btn btn-dark btn-sm">Update</button>
+                    </td>
+                    <td><a href="/delete/{{one.sno}}" type="button" class="btn btn-dark btn-sm">Delete</button>
+                    </td>
+
+                </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
